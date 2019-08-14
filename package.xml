@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+    <name>storelocator_webskills</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Storelocator is a simple extension in which admin can show magento physical stores in google maps.</summary>
+    <description>Storelocator is a simple extension in which admin can show magento physical stores in google maps.Admin can add,remove stores from backend and also can edit them.Admin can export store and can remove multiple stores.User can call it in any cms page as follows: {{block type="core/template" template="storelocator/index.phtml"}} or simply can view http://yourdomain/storelocator</description>
+    <notes>Simple and very lite extension.&#xD;
+After installing clear cache and re login your magento admin panel.</notes>
+    <authors><author><name>Rohit Dhiman</name><user>rohitjesus</user><email>rohitdoll@gmail.com</email></author></authors>
+    <date>2014-05-20</date>
+    <time>18:43:20</time>
+    <contents><target name="magedesign"><dir name="."><dir name="app"><dir name="design"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="storelocator.xml" hash=""/></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="storelocator.xml" hash=""/></dir></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
