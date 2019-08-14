@@ -3,7 +3,8 @@
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
-    "description": "Storelocator is a simple extension in which admin can show magento physical stores in google maps.",
+    "description": "Storelocator is a simple extension in which admin can show magento physical stores in google maps.
+",
     "authors": [
     {
         "name": "Rohit Dhiman",

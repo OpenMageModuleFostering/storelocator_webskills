@@ -48,7 +48,7 @@ class Webskills_Storelocator_IndexController extends Mage_Core_Controller_Front_
 					echo 'lng="' . $record->lng . '" ';
 					echo '/>';
 				}}
-		echo '</markers>';
+		echo '</markers>';die;
 
 	}
 }
